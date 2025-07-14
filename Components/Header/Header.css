@@ -1,0 +1,84 @@
+/* Header.css */
+
+form {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 128, 0, 0.4);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.4s ease;
+    border: 2px solid rgba(0, 255, 128, 0.3);
+}
+
+form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 35px rgba(0, 255, 128, 0.5);
+    border-color: rgba(0, 255, 128, 0.6);
+}
+
+input {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 255, 128, 0.3);
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #cfcfcf;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 255, 128, 0.6);
+}
+
+/* Buttons */
+button {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add Button */
+#add {
+    background: linear-gradient(45deg, #1cd80e, #0c730c);
+}
+
+#add:hover {
+    background: linear-gradient(45deg, #0c730c, #1cd80e);
+    box-shadow: 0 0 25px rgba(0, 255, 128, 0.7);
+    transform: scale(1.05);
+}
+
+/* Remove Button */
+#remove {
+    background: linear-gradient(45deg, #ff5f6d, #ffc371);
+}
+
+#remove:hover {
+    background: linear-gradient(45deg, #ffc371, #ff5f6d);
+    box-shadow: 0 0 25px rgba(255, 99, 71, 0.7);
+    transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 85%;
+    }
+}
