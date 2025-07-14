@@ -6,7 +6,7 @@ _A sleek, animated, and persistent task management app built with Next.js 14_
 
 ## 🌟 Overview
 
-This project is a **modern to-do web application** crafted with **Next.js** and **React Hooks**, designed for simplicity, speed, and visual delight. It features **beautiful UI animations**, **local storage persistence**, and a **task completion toggle system**, making task management effortless and fun.
+This project is a **modern to-do web application** crafted with **Next.js** and **React Hooks**, designed for simplicity, speed, and visual delight. It features **beautiful UI animations**, **local storage persistence**, and a **task completion toggle system**, making task management effortless and fun. 
 
 ---
 
@@ -15,7 +15,7 @@ This project is a **modern to-do web application** crafted with **Next.js** and 
 
 ---
 
-## 🎁 Key Features
+## 🎁 Key Features ⚡ 
 
 ✅ **Add Tasks**  
 ➔ Quickly add tasks with **Task Name**, **Description**, and a **Unique ID**.
@@ -89,6 +89,7 @@ then 💡 Open your browser → http://localhost:3000 → Start managing your ta
 ✔️ **Hover glow effects**  
 ✔️ **Glassmorphism task cards**  
 ✔️ **Gradient transitions on completion**
+✔️ **Live Status Updates with Smooth State Changes**
 
 ---
 ## 🧩 Tech Stack
