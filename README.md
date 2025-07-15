@@ -11,7 +11,7 @@ This project is a **modern to-do web application** crafted with **Next.js** and 
 ---
 
 ## 🚀 Live Demo
-> _**[https://vercel.com/sarthaks-projects-b691f838/to-do-list]**_
+> _**[https://to-do-list-five-zeta-90.vercel.app/]**_
 
 ---
 
